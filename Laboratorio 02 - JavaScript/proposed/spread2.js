@@ -69,4 +69,23 @@ const UserWithOutId = users.map((item)=> {
 
 console.log(UserWithOutId);
 
+const UpdateUsuario = (idUser, newEmail, newAge) => {
+  const asia = users.findIndex((user) => user.id == idUser)
 
+  const completos = users[asia]
+  const {email, age, ...demas} = completos;
+
+  const UpdateUsuario = {
+    email: newEmail,
+    age: newAge,
+    ...demas
+  }
+
+  users.splice(asia, 1)
+  users.splice(asia, 0, UpdateUsuario)
+
+};
+
+UpdateUsuario(1, "00052121@uca.edu.sv", 18)
+
+console.log(users)
