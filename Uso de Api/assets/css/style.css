@@ -1,0 +1,129 @@
+#main {
+  background-color: #222831;
+  width: auto;
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0 0 1rem 1rem;
+}
+
+.side-text {
+  display: grid;
+  place-items: center;
+}
+.side-text h2 {
+  text-align: center;
+  font-family: "Bebas Neue";
+  font-size: 74px;
+  color: #eee;
+}
+.side-text ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+.side-text ul li a {
+  background-color: #d1274b;
+  padding-right: 10px;
+  text-align: center;
+  padding: 15px 30px;
+  align-items: center;
+  text-decoration: none;
+  color: #eee;
+  font-family: "Space Mono";
+}
+
+#booster {
+  background-color: whitesmoke;
+  width: auto;
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 0 0 1rem 1rem;
+}
+
+#deck {
+  background-color: whitesmoke;
+  width: auto;
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 0 0 1rem 1rem;
+}
+
+.content {
+  flex-direction: row;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d1274b;
+  border-radius: 1rem 1rem 1rem 1rem;
+  margin-top: -5rem;
+}
+.header ul {
+  display: flex;
+  list-style: none;
+}
+.header ul li a {
+  padding: 15px 30px;
+  text-decoration: none;
+  color: #eee;
+  font-family: "Space Mono";
+}
+
+.controls {
+  display: flex;
+  background-color: #222831;
+  width: 500px;
+  height: 200px;
+  border-radius: 1rem 1rem 1rem 1rem;
+  flex-direction: column-reverse;
+}
+.controls ul {
+  display: flex;
+  list-style: none;
+  gap: 1px;
+}
+.controls ul li a {
+  background-color: #d1274b;
+  padding-right: 10px;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  color: #eee;
+  font-family: "Space Mono";
+  border-radius: 1rem 1rem 1rem 1rem;
+  gap: 1px;
+  padding: 0.4rem;
+}
+
+.cards {
+  display: flex;
+  background-color: gray;
+  width: 700px;
+  max-height: 80vh;
+  justify-content: flex-start;
+}
+.cards article {
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+  color: white;
+  background: #263859;
+  border-radius: 0.5rem;
+}
+
+/*# sourceMappingURL=style.css.map */
